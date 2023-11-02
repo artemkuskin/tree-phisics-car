@@ -1,5 +1,6 @@
 import { CubeCamera, OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import Ground from "./Ground";
+import Car from "./Car";
 
 export default function CarShow() {
     return (
@@ -13,14 +14,9 @@ export default function CarShow() {
 
             <color args={[0, 0, 0]} attach="background" />
 
-            {/* <CubeCamera resolution={256} frames={Infinity}>
-                {(texture) => (
-                    <>
-                        <Environment map={texture} />
-                        <Car />
-                    </>
-                )}
-            </CubeCamera> */}
+
+            
+
 
             <spotLight
                 color={[1, 0.25, 0.7]}
